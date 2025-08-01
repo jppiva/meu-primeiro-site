@@ -7,5 +7,7 @@ h1,p,h6 {
     text-align: center;
 }
 header {
-    background-color: aquamarine;
+    background-color: rgb(0, 0, 0);
+    color: rgb(44, 42, 165);
+    padding:20px;
 }
