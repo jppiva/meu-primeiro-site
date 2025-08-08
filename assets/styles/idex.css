@@ -2,12 +2,44 @@
 *{
     margin :0px;
     padding:0px;
+    box-sizing: border-box;
 }
-h1,p,h6 {
+
+/* configurações  gerais*/
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(138, 211, 116);
+    color: rgb(0, 0, 0);
+    padding:20px;
     text-align: center;
 }
-header {
-    background-color: rgb(0, 0, 0);
-    color: rgb(44, 42, 165);
-    padding:20px;
+main{
+    background-color: rgba(19, 63, 48, 0.26);
+    flex: 1;
+    padding: 48px 38px 48px;
+   width: 100%;
+}
+about-section{
+    display: block;
+    background-color: rgb(6, 129, 88);
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+
+#titulo-sobre-mim {
+    font-size: 40px;
+     border-bottom: 2px solid black;
+    
+}
+.texto-sobre-mim {
+    font-size: 30px;
 }
