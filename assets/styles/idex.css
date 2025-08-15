@@ -63,3 +63,38 @@ li:hover{
         transform: translateX(5px);
         transition: all 0.3s ease;
 }
+contact {
+    display: block;
+    background-color: rgb(6, 129, 88);
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 12px;
+    margin-top: 40px;
+}
+contact h2{
+    margin-bottom: 8px;
+    font-size: 30px;
+    text-align: center;
+}
+contact p{
+    text-align: center;
+    font-size: 22px;
+
+}
+contact a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    display: inline-block;
+
+}
+contact a:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+    transform: translateY(-2px);
+}
