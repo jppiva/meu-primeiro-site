@@ -108,3 +108,53 @@ footer{
 footer p{
     font-size: 2rem;
 }
+/* Estilos base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Container principal responsivo */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  /* Tipografia ajustável */
+  h1, h2, h3 {
+    line-height: 1.2;
+  }
+  
+  /* Media Queries para responsividade */
+  @media (max-width: 1024px) {
+    body {
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .container {
+      padding: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      font-size: 13px;
+    }
+  
+    .container {
+      padding: 0.5rem;
+    }
+  }
+  
