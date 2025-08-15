@@ -98,3 +98,13 @@ contact a:hover{
     color: aliceblue;
     transform: translateY(-2px);
 }
+footer{
+    background-color: rgb(138, 211, 116);
+    color: black;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+}
+footer p{
+    font-size: 2rem;
+}
